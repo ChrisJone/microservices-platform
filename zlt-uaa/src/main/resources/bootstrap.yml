@@ -5,9 +5,24 @@ server:
       cookie:
         name: OAUTH2SESSION
 
+zlt:
+  nacos:
+    server-addr: 127.0.0.1:8848
+
 spring:
   application:
     name: uaa-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${zlt.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+      discovery:
+        server-addr: ${zlt.nacos.server-addr}
+  main:
+    allow-bean-definition-overriding: true
+
 
 encrypt:
   key-store:

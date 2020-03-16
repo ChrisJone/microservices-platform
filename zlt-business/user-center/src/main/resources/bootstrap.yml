@@ -1,11 +1,19 @@
 server:
-  port: 7000
+  port: 8001
+zlt:
+  nacos:
+    server-addr: 127.0.0.1:8848
 
 spring:
   application:
     name: user-center
-#  cloud:
-#    nacos:
-#      discovery:
-#        metadata:
-#          version: zlt
+  cloud:
+    nacos:
+      config:
+        server-addr: ${zlt.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+      discovery:
+        server-addr: ${zlt.nacos.server-addr}
+  main:
+    allow-bean-definition-overriding: true

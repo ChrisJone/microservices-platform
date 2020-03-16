@@ -13,4 +13,5 @@ public class FdfsProperties {
      * fastdfs的http访问地址
      */
     private String webUrl;
+    private String webPort;
 }

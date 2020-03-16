@@ -39,6 +39,7 @@ public class FileInfo extends Model<FileInfo> {
     /**
      * 文件大小
      */
+    @TableField(value = "`size`")
     private long size;
     /**
      * 冗余字段

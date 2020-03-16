@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+Mon Feb 10 17:00:33 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0170-2e54-2984-00001625e300 
+on database directory /Users/chriswong/work/opensource/microservices-platform/zlt-register/nacos/data/derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@7cc0f15d 
+Loaded from jar:file:/Users/chriswong/work/opensource/microservices-platform/zlt-register/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
+java.vendor=AdoptOpenJDK
+java.runtime.version=13.0.1+9
+java.fullversion=13.0.1+9
+JRE 13 Mac OS X amd64-64-Bit Compressed References 20191021_99 (JIT enabled, AOT enabled)
+OpenJ9   - 77c1cf708
+OMR      - 20db4fbc
+JCL      - 74a8738189 based on jdk-13.0.1+9
+user.dir=/Users/chriswong/work/opensource/microservices-platform/zlt-register/nacos/bin
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

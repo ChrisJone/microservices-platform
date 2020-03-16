@@ -18,6 +18,7 @@ zlt:
     type: fastdfs
     fdfs:
       web-url: ${zlt.fdfs.web-url}
+      web-port: ${zlt.fdfs.web-port}
     #oss配置
     #oss:
     #  access-key: tpi8mObnfzZi4ggBX8Bw7zydjoTQ0WeML3RkPKsX
